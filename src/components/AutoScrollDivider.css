@@ -1,0 +1,21 @@
+.yellow-wrapper {
+  background-color: #fff3d6;
+  padding: 4rem 0;
+  overflow: hidden;
+}
+
+.white-box {
+  background: white;
+  transform: rotate(-2deg);
+  padding: 2rem 0;
+  margin: auto;
+  width: 100%;
+  max-width: 100vw;
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.white-box span {
+  margin: 0 2rem;
+}

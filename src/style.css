@@ -1,0 +1,297 @@
+/* styles.css */
+.section-container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #111;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 1.5rem 2rem;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 4rem 3rem;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 600px;
+  flex: 1;
+}
+
+.hero-text h2 {
+  font-size: 4.5rem;
+  margin: 1rem 0;
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+  color: #444;
+}
+
+.hero-imgs {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.hero-imgs img {
+  width: 500px;
+  height: 500px;
+  border-radius: 1%;
+
+}
+
+.card1{
+  background: red;
+}
+
+/*.section-divider {
+  margin: 10rem 0;
+  padding: 4.5rem 0;
+  background-color: #fff3d6;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.marquee {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 10s linear infinite;
+}
+
+.marquee span {
+  display: inline-block;
+  font-size: 2.1rem;
+  margin-right: 3rem;
+  font-weight: 600;
+}
+
+/* Keyframes for right-to-left scroll 
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}*/
+
+
+.projects {
+  padding: 3rem 4rem;
+}
+
+.projects h3 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.project-card {
+  flex: 1 1 calc(50% - 1rem); /* two cards per row with space */
+  /* background-color: #f9f9f9; */
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  min-width: 300px; /* prevents shrinking too much on small screens */
+}
+
+.project-card h4 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+.contact {
+  border-top: 1px solid #000000;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.contact>div,
+.contact form {
+  flex: 1 1 300px;
+  margin-top: 4rem;
+  margin-right: 2rem;
+}
+
+.contact h4 {
+  font-size: 1.5rem;
+  padding: 0; 
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  padding-top: 16rem;
+  height: 28px;
+  height: 28px;
+}
+
+.social-icons img {
+  height: 28px;
+  width: 28px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form button {
+  padding: 1rem 3rem;
+  border: none;
+  background-color: #111;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: left;
+  font-size: 0.9rem;
+  color: #666;
+  padding: 4rem;
+}
+
+.about-page {
+  padding: 3rem 2rem;
+}
+
+.about-header {
+  background-color: #fef4d6;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about-header img {
+  max-width: 150px;
+}
+
+.bio p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.about-body {
+  padding: 2rem;
+}
+
+.highlight-box {
+  background-color: #00796b;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text h2 {
+    font-size: 2rem;
+  }
+
+  .projects h3 {
+    font-size: 1.4rem;
+  }
+
+  .about-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-body {
+    padding: 1rem;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .project-card{
+    width: 100%;
+  }
+
+  .projects h3{
+    text-align: center;
+  }
+
+  .logo-img {
+  width: 30px;
+  height: 30px;
+}
+
+}
