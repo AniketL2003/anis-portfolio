@@ -7,11 +7,19 @@
   pointer-events: none;
 }
 
+<<<<<<< Updated upstream
 /*@media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }*/
+=======
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+>>>>>>> Stashed changes
 
 .App-header {
   background-color: #282c34;
@@ -28,11 +36,20 @@
   color: #61dafb;
 }
 
+<<<<<<< Updated upstream
 /*@keyframes App-logo-spin {
+=======
+@keyframes App-logo-spin {
+>>>>>>> Stashed changes
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+<<<<<<< Updated upstream
      } 
 }*/
+=======
+  }
+}
+>>>>>>> Stashed changes
