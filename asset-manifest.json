@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Anis-UX/static/css/main.6641abbd.css",
-    "main.js": "/Anis-UX/static/js/main.8959397d.js",
-    "static/js/453.3be8e3e2.chunk.js": "/Anis-UX/static/js/453.3be8e3e2.chunk.js",
-    "static/media/logo.svg": "/Anis-UX/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/Anis-UX/index.html",
-    "main.6641abbd.css.map": "/Anis-UX/static/css/main.6641abbd.css.map",
-    "main.8959397d.js.map": "/Anis-UX/static/js/main.8959397d.js.map",
-    "453.3be8e3e2.chunk.js.map": "/Anis-UX/static/js/453.3be8e3e2.chunk.js.map"
+    "main.css": "/anis-portfolio/static/css/main.6641abbd.css",
+    "main.js": "/anis-portfolio/static/js/main.bc7100e3.js",
+    "static/js/453.3be8e3e2.chunk.js": "/anis-portfolio/static/js/453.3be8e3e2.chunk.js",
+    "static/media/logo.svg": "/anis-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/anis-portfolio/index.html",
+    "main.6641abbd.css.map": "/anis-portfolio/static/css/main.6641abbd.css.map",
+    "main.bc7100e3.js.map": "/anis-portfolio/static/js/main.bc7100e3.js.map",
+    "453.3be8e3e2.chunk.js.map": "/anis-portfolio/static/js/453.3be8e3e2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6641abbd.css",
-    "static/js/main.8959397d.js"
+    "static/js/main.bc7100e3.js"
   ]
 }
